@@ -1,0 +1,13 @@
+\W => nao palavras
+\w => paralavras
+
+^(\d{3}).(\d{3}).(\d{3})-(\d{2}) -> pega os numeros (padrao mais iniciante)
+
+123.123.123-14
+321.321.321-32
+200.300.500-19
+
+procurar por: [.-]
+replace por: vazio
+
+---
